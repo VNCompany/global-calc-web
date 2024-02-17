@@ -1,0 +1,18 @@
+.flatButton {
+    padding: 10px 15px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-weight: normal;
+    background-color: white;
+    transition: background-color .2s;
+}
+
+.flatButton:hover:not(:disabled) {
+    cursor: pointer;
+    background-color: #bbb;
+    transition: background-color .2s;
+}
+
+.flatButton:disabled {
+    color: #B6B6B6;
+}

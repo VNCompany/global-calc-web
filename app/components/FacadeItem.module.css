@@ -1,0 +1,15 @@
+.facadeItem {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid #d3d3d3;
+}
+
+.facadeItemInfo { margin-left: 20px; flex-grow: 1 }
+
+.facadeItemInfo > div { margin-bottom: 10px; }
+
+.facadeItemInfo > div:last-child { margin-bottom: 0; }
+
+.facadeItemDetails { color: dimgrey }

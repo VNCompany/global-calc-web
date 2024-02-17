@@ -1,0 +1,99 @@
+:root {
+    --background-color: #EFEFEF;
+    --footer-color: #222;
+    --shadow: 2px 2px 8px gray;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    min-width: 950px;
+    background-color: var(--background-color);
+}
+
+header {
+    padding: 0 50px;
+    margin-bottom: 20px;
+    height: 120px;
+    background-color: white;
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: var(--footer-color);
+    color: lightgray;
+    text-align: center;
+    padding: 45px 0;
+}
+
+footer > a  {
+    color: lightgray;
+}
+
+footer > a:visited {
+    color: lightgray;
+}
+
+.siteLogo {
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    background-image: url('/GlobalCalc.png');
+    background-size: 60px;
+}
+
+.siteTitle {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #444;
+    padding-left: 20px;
+}
+
+main {
+    min-height: 600px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FEFEFE;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+/* Special classes */
+.m-10 { margin: 10px; }
+.m-15 { margin: 15px; }
+.m-20 { margin: 20px; }
+.m-30 { margin: 30px; }
+.m-40 { margin: 40px; }
+
+.mt-10 { margin-top: 10px; }
+.mt-15 { margin-top: 15px; }
+.mt-20 { margin-top: 20px; }
+.mt-30 { margin-top: 30px; }
+.mt-40 { margin-top: 40px; }
+
+.ml-10 { margin-left: 10px; }
+.ml-15 { margin-left: 15px; }
+.ml-20 { margin-left: 20px; }
+.ml-30 { margin-left: 30px; }
+.ml-40 { margin-left: 40px; }
+
+.mr-10 { margin-right: 10px; }
+.mr-15 { margin-right: 15px; }
+.mr-20 { margin-right: 20px; }
+.mr-30 { margin-right: 30px; }
+.mr-40 { margin-right: 40px; }
+
+.mb-10 { margin-bottom: 10px; }
+.mb-15 { margin-bottom: 15px; }
+.mb-20 { margin-bottom: 20px; }
+.mb-30 { margin-bottom: 30px; }
+.mb-40 { margin-bottom: 40px; }
